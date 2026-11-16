@@ -1,12 +1,12 @@
 export const generateConfig = (
 	privateKey: string,
-    address: string,
-    dns: string,
-    serverPublicKey: string,
-    serverEndpoint: string,
-    allowedIPs: string
+	address: string,
+	dns: string,
+	serverPublicKey: string,
+	serverEndpoint: string,
+	allowedIPs: string
 ) => {
-    return `[Interface]
+	return `[Interface]
 PrivateKey = ${privateKey}
 Address = ${address}
 DNS = ${dns}
