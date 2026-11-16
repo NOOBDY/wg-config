@@ -6,8 +6,7 @@ export const generateConfig = (
     serverEndpoint: string,
     allowedIPs: string
 ) => {
-    return `
-[Interface]
+    return `[Interface]
 PrivateKey = ${privateKey}
 Address = ${address}
 DNS = ${dns}
